@@ -1,4 +1,12 @@
-<!-- AUTOMATION VALIDATION: 2026-04-23 - automation of development confirmed for this repo -->
+# Job Hunter Tester
 
-# forseti-jobhunter-tester
-Testing utilities for job_hunter module
+This repository is a standalone test harness repo for Job Hunter automation and browser-driven validation.
+
+## Current state
+
+- Playwright-oriented test assets are present
+- the repo is lightweight and focused on external validation rather than product implementation
+
+## Repo note
+
+Keep test harness concerns here rather than mixing them into the main Job Hunter product repo when independent validation is useful.
